@@ -1,8 +1,9 @@
+import _ from 'lodash'
 function component () {
   console.log(_)
   const element = document.createElement('div')
-  //
-  element.interHTML = _.join(['Hello', 'webpack'], ' ')
+  // 改用import引入
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ')
 
   return element
 }
