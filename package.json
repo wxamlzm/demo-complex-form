@@ -6,7 +6,7 @@
   "name": "demo-complex-form",
   "description": "vue2+webpack5 尝试在熟悉的语言环境，用webpack进行搭建，看能不能做到比vue-cli更优",
   "version": "0.0.1",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
