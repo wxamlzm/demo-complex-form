@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "name": "demo-complex-form",
+  "description": "vue2+webpack5 尝试在熟悉的语言环境，用webpack进行搭建，看能不能做到比vue-cli更优",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxamlzm/demo-complex-form.git"
+  },
+  "author": "wxam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxamlzm/demo-complex-form/issues"
+  },
+  "homepage": "https://github.com/wxamlzm/demo-complex-form#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
