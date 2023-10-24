@@ -1,5 +1,5 @@
 const path = require('path')
-// 导入 copy 和 html plugin
+// html plugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const outputPath = path.resolve(__dirname, 'dist')
