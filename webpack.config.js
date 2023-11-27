@@ -3,9 +3,14 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 const outputPath = path.resolve(__dirname, 'dist')
+const webpack = require('webpack')
 
 module.exports = {
   entry: './src/main.js',
+
+  devServer: {
+    hot: true
+  },
 
   // ... 其他配置
   plugins: [
@@ -15,7 +20,8 @@ module.exports = {
       template: 'public/index.html'
     }),
     // 引入vue-loader
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
 
   output: {
